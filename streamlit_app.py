@@ -12,3 +12,6 @@ if uploaded_file is not None:
       engine='python',
       na_value='-',
       header=None)
+
+st.markdown('### アクセスログ(先頭5件)')
+st.write(df.head(5))
